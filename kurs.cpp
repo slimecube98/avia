@@ -327,8 +327,7 @@ void BD::Search()
             if (nType.find(Type) != string::npos)
             {
                 counter++;
-                cout << endl << " Пункт назначения : " << temp->Destination << "\n Номер рейса : " << temp->FlightNumber << "\n Тип самолёта : " << temp -
-                > TypeOfAircraft << endl << endl;
+                cout << endl << " Пункт назначения : " << temp->Destination << "\n Номер рейса : " << temp->FlightNumber << "\n Тип самолёта : " << temp -> TypeOfAircraft << endl << endl;
             }
             temp = temp->next;
         }
